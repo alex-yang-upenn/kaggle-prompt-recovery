@@ -1,31 +1,7 @@
-# kaggle-prompt-recovery
+# LLM Prompt Recovery: QLoRA Fine-Tuning Solution
 
-A complete solution to Kaggle's LLM Prompt Recovery Competition, featuring an in-depth guide to QLoRA Fine-Tuning.
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://alex-yang-upenn.github.io/kaggle-prompt-recovery/intro.html) ![Deployment Badge](https://github.com/alex-yang-upenn/kaggle-prompt-recovery/actions/workflows/deploy.yml/badge.svg) ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg) ![kaggle-badge](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white) ![pytorch-badge](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![keras-badge](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 
-## Usage
+A complete solution for Kaggle's LLM Prompt Recovery Competition, featuring an in-depth guide to QLoRA Fine-Tuning.
 
-### Building the book
-
-If you'd like to develop and/or build the kaggle-prompt-recovery book, you should:
-
-1. Clone this repository
-2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `kaggle_prompt_recovery/` directory
-4. Run `jupyter-book clean kaggle_prompt_recovery/` to remove any existing builds
-5. Run `jupyter-book build kaggle_prompt_recovery/`
-
-A fully-rendered HTML version of the book will be built in `kaggle_prompt_recovery/_build/html/`.
-
-### Hosting the book
-
-Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.html) to discover options for deploying a book online using services such as GitHub, GitLab, or Netlify.
-
-For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
-
-## Contributors
-
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/alex-yang-upenn/kaggle_prompt_recovery/graphs/contributors).
-
-## Credits
-
-This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+Notebooks are hosted on [Github Pages](https://alex-yang-upenn.github.io/kaggle-prompt-recovery/intro.html) with Jupyter Book. They are also available for viewing, copying, and editing on Kaggle ([Part 1](https://www.kaggle.com/code/chuhuayang/prompt-recovery-pt-1-generate-training-data), [Part 2](https://www.kaggle.com/code/chuhuayang/prompt-recovery-pt-2-fine-tuning), [Part 3](https://www.kaggle.com/code/chuhuayang/prompt-recovery-pt-3-evaluation)), complete with training data, pre-trained LLMs and Adapters, and runtime environment with GPU/TPU access.

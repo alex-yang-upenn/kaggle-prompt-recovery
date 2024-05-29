@@ -9,7 +9,7 @@
 
 **I'm sharing the Notebooks I used for Kaggle's LLM Prompt Recovery Competition**
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](<TODO>) ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg) ![kaggle-badge](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white) ![pytorch-badge](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![keras-badge](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://alex-yang-upenn.github.io/kaggle-prompt-recovery/intro.html) ![Deployment Badge](https://github.com/alex-yang-upenn/kaggle-prompt-recovery/actions/workflows/deploy.yml/badge.svg) ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg) ![kaggle-badge](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white) ![pytorch-badge](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![keras-badge](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 
 The goal of this competition is to recover the prompt that an LLM used to rewrite or make stylistic changes to text. The input is the original and the rewritten text, and the output is the prompt. For more details, refer to: [LLM Prompt Recovery](https://www.kaggle.com/competitions/llm-prompt-recovery/overview) 📑 🗂️
 
@@ -87,4 +87,6 @@ The base model, trained Adapter, and training data can all be easily accessed fr
 For questions, suggestions, or comments, reach out to me via [email](mailto:chukyang@sas.upenn.edu).
 
 ## Credits
-Thank you to all members of the Kaggle community, in particular the active contributors in this competition who documented and published their various creative approaches.
+Thank you to all members of the Kaggle community.
+
+This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
