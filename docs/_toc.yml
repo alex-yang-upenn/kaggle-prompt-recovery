@@ -1,0 +1,9 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: "Part 1 - Generate Training Data.ipynb"
+- file: "Part 2 - Fine-Tuning"
+- file: "Part 3 - Evaluation"
